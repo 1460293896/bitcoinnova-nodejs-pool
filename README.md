@@ -116,6 +116,15 @@ Usage
 * [Redis](http://redis.io/) key-value store v2.6+ 
   * For Ubuntu: 
 ```
+
+
+记录使用apt-get在ubuntu server上安装最新版本Redis的过程。在ubuntu安装redis最简单的方式，就是使用apt-get 
+
+[html]  view plain  copy
+sudo apt-get install redis-server
+
+
+
 sudo add-apt-repository ppa:chris-lea/redis-server
 sudo apt-get update
 sudo apt-get install redis-server
